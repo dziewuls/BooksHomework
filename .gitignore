@@ -1,0 +1,70 @@
+HELP.md
+homework/book-homework/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+homework/book-homework/.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+homework/book-homework/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+homework/dashboard-homework/dist
+/tmp
+/out-tsc
+
+# dependencies
+homework/dashboard-homework/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+homework/dashboard-homework/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+homework/dashboard-homework/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+homework/dashboard-homework/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+homework/dashboard-homework/.DS_Store
+Thumbs.db

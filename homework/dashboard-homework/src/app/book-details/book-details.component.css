@@ -1,0 +1,16 @@
+.book-content {
+    width: 130px;
+    padding: 10px;
+    display: inline-table;
+}
+
+.book-content img {
+    width: 130px;
+}
+
+.book-content .book-field {
+    display: block;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: black;
+}

@@ -1,0 +1,23 @@
+Open cmd in "homework" folder.
+
+Building 
+
+To build the project use following command: 
+` mvn clean install `
+
+Running 
+ 
+ After building the application run following command to start it: 
+` java -Dsource="book-source\books.json" -jar book-homework\target\book-homework-0.0.1.jar `
+
+Access
+
+After running dashboard is available at the url:
+` http://localhost:8080/dashboard `
+
+Endpoints
+
+` http://localhost:8080/api/book/{isbn} `
+` http://localhost:8080/api/category/{categoryName}/books `
+` http://localhost:8080/api/rating ` 
+ 

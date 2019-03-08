@@ -1,0 +1,16 @@
+<div class="dashboard-content">
+  <div class="select-category">
+    <label>SELECT CATEGORY</label>
+    <select #categorySelect (click)="loadBooksByCategory(categorySelect.value)">
+      <option></option>
+      <ng-container *ngFor="let category of categories">
+        <option>{{category}}</option>
+      </ng-container>
+    </select>
+  </div>
+  <div class="books-galery">
+    <ng-container *ngFor="let book of booksToView">
+      <app-book-details [bookToView]="book"></app-book-details>
+    </ng-container>
+  </div>
+</div>

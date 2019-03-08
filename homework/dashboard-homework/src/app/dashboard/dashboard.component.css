@@ -1,0 +1,49 @@
+.dashboard-content {
+    margin: auto;
+    padding: 20px;
+    width: 75%;
+    max-width: 1000px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 550px;
+    border: 2px solid black;
+}
+
+.select-category {
+    text-align: center;
+}
+
+.select-category label {
+    display: block;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.select-category select {
+    display: block;
+    height: 30px;
+    width: 200px;
+    margin: 5px auto 10px auto;
+    border-radius: 5px;
+}
+
+.books-galery {
+    text-align: center;
+    overflow-y: auto;
+    height: 480px;
+}
+
+.books-galery::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  .books-galery::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgb(207, 173, 130);
+}
+  
+.books-galery::-webkit-scrollbar-thumb:hover {
+    background: rgb(121, 100, 73);
+}

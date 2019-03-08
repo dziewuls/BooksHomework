@@ -1,0 +1,6 @@
+<div class="book-content">
+  <img src={{bookToView.thumbnailUrl}}>
+  <span class="book-field" *ngIf="bookToView.title"><B>{{bookToView.title}}</B></span>
+  <span class="book-field" *ngIf="bookToView.averageRating">Rating: {{bookToView.averageRating}}</span>
+  <span class="book-field" *ngIf="bookToView.publishedDate">Published: {{bookToView.publishedDate | date:'yyyy'}}</span>
+</div>
